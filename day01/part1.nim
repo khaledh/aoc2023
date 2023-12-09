@@ -3,7 +3,7 @@ import std/strutils
 var answer: int
 
 # read lines from file
-for line in lines("a.txt"):
+for line in lines("input.txt"):
   var first, last: char = '\0'
   for c in line:
     # track first and last digit

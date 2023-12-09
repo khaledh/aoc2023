@@ -6,7 +6,7 @@ const
 var answer: int
 
 # read lines from file
-for line in lines("a.txt"):
+for line in lines("input.txt"):
   var firstDigit, lastDigit: char = '\0'
   var firstWord, lastWord: int = 0
 
